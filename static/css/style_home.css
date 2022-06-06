@@ -1,0 +1,83 @@
+body{
+zoom: 100%;
+}
+
+.button_1{
+    border-radius: 20px;
+    padding: 10px;
+    background: white;
+    transition: .3s;
+    border: 5px solid black;
+    border-radius: 15px;
+    font-size: 30%;
+    color: #03989e;
+    font-size: 100px;
+    margin-left: 1.35%;
+    margin-top: 1%;
+
+}
+
+.button_1:hover{
+    background: #03989e;
+    color: white;
+    font-color: white;
+
+}
+
+.text_1{
+    font-size: 30px;
+    color: black
+}
+
+
+
+
+.fa-solid fa-dumbbell{
+    weight: 100px;
+    height: 100px;
+}
+
+img{
+    border-radius: 50px;
+}
+
+/* Контейнер, необходимый для размещения кнопки. Отрегулируйте ширину по мере необходимости */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+/* Сделайте изображение отзывчивым */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Стиль кнопки и поместите его в середине контейнера/изображения */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 40px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 10px 4px rgba(0, 0, 0, 0.6);
+  transition: background-color .4s ease 0s;
+}
+
+.container .btn:hover {
+  background-color: #03989e;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0 14px 6px rgba(0, 0, 0, 1);
+}
+
+.carousel-item{
+    margin-left:
+}
