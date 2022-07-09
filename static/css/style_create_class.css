@@ -1,0 +1,62 @@
+
+.subject{
+    display: block;
+    margin: auto;
+    width: 150px;
+    border-color: #03989e;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+.input_group{
+    text-align: center;
+    outline: none;
+    font-family: sans-serif;
+    position: relative;
+
+}
+
+.input_group input{
+    width: 100%;
+    height: 100%;
+    color: black;
+    border: none;
+    border-bottom: 3px solid #03989e;
+    outline: none;
+}
+
+.input_group_2 input{
+    width: 100%;
+    height: 100%;
+    color: white;
+    border: none;
+    border-bottom: 3px solid white;
+    outline: none;
+}
+
+
+.input_group label::after{
+    content: "";
+    width: 80%;
+    height: 80%;
+    border-bottom: 4px solid black;
+}
+
+form{
+    border: 4px;
+    border-radius: 15%;
+}
+
+.rule{
+    border: none;
+    background: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+.button_group input::after{
+    content: "";
+    width: 80%;
+    height: 80%;
+    border-bottom: 4px solid black;

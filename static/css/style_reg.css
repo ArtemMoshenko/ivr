@@ -1,0 +1,67 @@
+body{
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.box{
+    width: 800px;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%; -50%);
+    background: white;
+    text-align: center;
+    margin-left: 100px;
+
+
+}
+
+.box h3{
+    color: black;
+    font-weight: 500;
+
+}
+
+h6{
+    margin-left: 325px;
+}
+
+.text1{
+    color: grey;
+    text-align: justify;
+}
+
+
+.box input[type = "text"],.box input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 14px;
+    transition: 0.25s;
+}
+
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 210px;
+    border-color: #03989e;
+
+}
+
+.box input[type = "submit"]{
+    background: none;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid black;
+    width: 100px;
+    color: black;
+    border-radius: 5px;
+    font-weight: 500;}
+    border: 5px solid black;

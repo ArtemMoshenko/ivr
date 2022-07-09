@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/css/style_create_class.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/cdba925fc2.js" crossorigin="anonymous"></script>
+    <title>Главная</title>
+</head>
+<body>
+
+{% extends "base.html" %}
+{% block content %}
+
+<form form method="POST" action="">
+    <div class="container">
+
+<h1 style="font-size: 70px; margin-left: 5%; margin-top: 2%">Создайте свой класс!</h1>
+
+        <form class="name_code_form">
+            <select class="subject">
+                <option selected>Ваш предмет</option>
+                <option value="subject_math">математика</option>
+                <option value="subject_rus">русский</option>
+                <option value="subject_inf">информатика</option>
+                <option value="subject_eng">английский</option>
+                <option value="subject_hist">история</option>
+            </select>
+            <br>
+            <div class="input_group">
+                <li><input type="text" class="name_class" id="name_class" placeholder="Имя класса" autocomplete="off"></li>
+                <li><input type="password" class="code_class" id="code_class" placeholder="Ваш код"></li>
+            </div>
+
+        </form>
+
+        <ul class="container" style="margin-top: 50px; border-radius: 30px; background-color: #323332; width: 650px;">
+                <li>
+                    <div class="input_group_2">
+                        <input type="text" class="term" id="term" placeholder="Теримн" autocomplete="off" style=" margin-top: 20px; width: 300px; background: none;">
+                        <br>
+                        <input type="text" class="password" id="password" placeholder="Ответ" autocomplete="off" style="width: 300px; margin-top: 30px; background: none;">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="button_group" style="margin-left: 20px; margin-bottom: 20px;">
+                        <button name="class" style="background: none; border: none; margin-left: 5px; margin-bottom: 15px; color: white"><i class="fa-solid fa-circle-plus"></i></i> Добавить картинку</button>
+                        <br>
+                        <input type="text" class="rule" id="rule" placeholder="Правило" autocomplete="off">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="icons" style="margin-left: 20px">
+                        <button name="delete" style="background: none; border: none; font-size: 30px; color: white; margin-bottom: 20px"><i class="fa-solid fa-trash-can"></i></button>
+                        <button name="imp" style="background: none; border: none; font-size: 30px; color: white; margin-bottom: 20px"><i class="fa-solid fa-bookmark"></i></button>
+                    </div>
+                </li>
+        </ul>
+
+        <ul class="container" style="margin-top: 50px; border-radius: 30px; background-color: #323332; width: 650px;">
+                <li>
+                    <div class="input_group_2">
+                        <input type="text" class="term" id="term1" placeholder="Термин" autocomplete="off" style=" margin-top: 20px; width: 300px; background: none;">
+                        <br>
+                        <input type="text" class="password" id="password1" placeholder="Ответ" autocomplete="off" style="width: 300px; margin-top: 30px; background: none;">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="button_group" style="margin-left: 20px; margin-bottom: 20px;">
+                        <button name="add_picture" style="background: none; border: none; margin-left: 5px; margin-bottom: 15px; color: white"><i class="fa-solid fa-circle-plus"></i></i> Добавить картинку</button>
+                        <br>
+                        <input name="rule" type="text" class="rule" id="rule1" placeholder="Правило" autocomplete="off">
+                    </div>
+                </li>
+
+                <li>
+                    <div class="icons" style="margin-left: 20px">
+                        <button style="background: none; border: none; font-size: 30px; color: white; margin-bottom: 20px"><i class="fa-solid fa-trash-can"></i></button>
+                        <button style="background: none; border: none; font-size: 30px; color: white; margin-bottom: 20px"><i class="fa-solid fa-bookmark"></i></button>
+                    </div>
+                </li>
+        </ul>
+
+
+        <button class="container" style="background: none; border: none; font-size: 100px; color: #03989e;"><i class="fa-solid fa-square-plus"></i></button>
+
+    </div>
+</form>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+{% endblock %}
+
+</body>
+</html>
