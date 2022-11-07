@@ -1,62 +1,75 @@
-
-.subject{
-    display: block;
-    margin: auto;
-    width: 150px;
-    border-color: #03989e;
-    border-radius: 5px;
-    margin-top: 5%;
+.box {
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 20%;
 }
 
-.input_group{
-    text-align: center;
-    outline: none;
-    font-family: sans-serif;
-    position: relative;
-
-}
-
-.input_group input{
-    width: 100%;
-    height: 100%;
-    color: black;
-    border: none;
-    border-bottom: 3px solid #03989e;
-    outline: none;
-}
-
-.input_group_2 input{
-    width: 100%;
-    height: 100%;
-    color: white;
-    border: none;
-    border-bottom: 3px solid white;
-    outline: none;
-}
-
-
-.input_group label::after{
-    content: "";
-    width: 80%;
-    height: 80%;
-    border-bottom: 4px solid black;
-}
-
-form{
-    border: 4px;
-    border-radius: 15%;
-}
-
-.rule{
-    border: none;
-    background: none;
-    border: 1px solid white;
+.create {
     border-radius: 10px;
-    color: white;
+    padding: 10px;
+    background: #023236;
+    color: #d2d2f5;
+    transition: .3s;
+    border: 3px solid #01191a;
+    border-radius: 10px;
+    font-size: 50px;
+    margin-right: 16px;
+    margin-left: 150px;
 }
 
-.button_group input::after{
-    content: "";
-    width: 80%;
-    height: 80%;
-    border-bottom: 4px solid black;
+.subject {
+    border-radius: 10px;
+    padding: 10px;
+    background: white;
+    color: #03989e;
+    transition: .3s;
+    border: 3px solid #03989e;
+    border-radius: 10px;
+    font-size: 50px;
+    margin-right: 16px;
+}
+
+.input_name_class {
+    padding: 10px;
+    background: white;
+    color: #03989e;
+    transition: .3s;
+    font-size: 50px;
+    margin-right: 16px;
+    width: 1000px;
+    text-color: grey;
+    border: none;
+    border-bottom: 7px solid #029096;
+    outline: none;
+    text-align: center;
+    font-family: "Impact";
+    color: black;
+
+}
+
+.box1 {
+    width: 1000px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 80%;
+}
+
+.box2 {
+    width: 1000px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 60%;
+}
+
+
+

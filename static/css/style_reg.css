@@ -12,19 +12,17 @@ body{
     transform: translate(-50%; -50%);
     background: white;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 25%;
 
 
 }
 
 .box h3{
     color: black;
-    font-weight: 500;
-
 }
 
 h6{
-    margin-left: 325px;
+    margin-left: 40%;
 }
 
 .text1{
@@ -54,7 +52,7 @@ h6{
 
 }
 
-.box input[type = "submit"]{
+.box input[type = "submit"] {
     background: none;
     display: block;
     margin: 5px auto;
@@ -63,5 +61,22 @@ h6{
     width: 100px;
     color: black;
     border-radius: 5px;
-    font-weight: 500;}
-    border: 5px solid black;
+    font-weight: 500;
+}
+
+.1{
+    margin-left: 20px;
+}
+
+button{
+        border-radius: 20px;
+    padding: 10px;
+    background: white;
+    transition: .3s;
+    border-radius: 5px;
+    font-size: 30%;
+    color: #03989e;
+    font-size: 100px;
+    margin-left: 1.35%;
+    margin-top: 1%;
+}

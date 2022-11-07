@@ -1,0 +1,38 @@
+button{
+    border-radius: 20px;
+    padding: 10px;
+    background: white;
+    transition: .3s;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: #03989e;
+    width: 200px;
+    text-size: 100px;
+    margin-right: 5%;
+    margin-top: 1%;
+
+}
+
+button:hover{
+    background: #03989e;
+    color: white;
+    font-color: white;
+
+}
+
+
+.box1{
+
+    width: 1200px;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 40%;
+}
+
+.fa-solid fa-dumbbell{
+    weight: 100px;
+    height: 100px;
+}

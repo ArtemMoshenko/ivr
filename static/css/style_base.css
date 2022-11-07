@@ -7,7 +7,7 @@
 
 .logo{
     height: auto;
-    weight: auto;
+    weight: 20%;
 }
 
 .logo:hover{
@@ -25,13 +25,27 @@
 
 .button1{
     border-radius: 10px;
+    margin-top: 10px;
     padding: 10px;
     background: #03989e;
     color: white;
     transition: .3s;
     border: 3px solid white;
     border-radius: 10px;
-    font-size: 50px;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.button2{
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    background: #dedede;
+    color: #03989e;
+    transition: .3s;
+    border: 3px solid #dedede;
+    border-radius: 10px;
+    font-size: 30px;
     margin-right: 10px;
 }
 
@@ -77,8 +91,8 @@
 
 .setting_button{
     color: white;
-    font-size: 50px;
-    margin-left: 15px;
+    font-size: 30px;
+    margin-right: 10px;
 
 .icons{
     color: white;

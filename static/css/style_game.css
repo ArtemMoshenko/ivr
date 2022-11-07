@@ -1,0 +1,87 @@
+
+input {
+    margin-left: 0px;
+    padding: 10px;
+    background: white;
+    color: #f16d3f;
+    transition: .3s;
+    font-size: 60px;
+    margin-right: 16px;
+    width: 1000px;
+    text-color: grey;
+    border: none;
+    border-bottom: 7px solid #f16d3f;
+    outline: none;
+    font-family: "Impact";
+    color: black;
+    text-align: center;
+}
+
+text {
+    text-align: center;
+}
+
+.button_box_1 {
+    width: 115px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 90%;
+}
+
+.button_box {
+    width: 470px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 75%;
+}
+
+button {
+    margin-left: 15%;
+    padding: 10px;
+    background: white;
+    transition: .3s;
+    border: 5px solid black;
+    border-radius: 15px;
+    color: #f16d3f;
+    font-size: 25px;
+    margin-top: 1%;
+}
+
+.input_1 {
+    max-width: 1200px;
+    height: 100px;
+    position: absolute;
+    right: 0;
+    left: 235px;
+    margin: 0 auto;
+    top: 50%;
+    color: #01191a;
+}
+
+.input_2 {
+    max-width: 800px;
+    min-width: 1px;
+    position: absolute;
+    right: 0;
+    left: 235px;
+    margin: 0 auto;
+    top: 30%;
+    color: #01191a;
+    font-family: "Impact";
+    text-color: grey;
+    font-size: 30px;
+}
+
+.information{
+    background-color: white;
+    border: 3px solid white;
+    font-size: 20px;
+}
+
+.se
