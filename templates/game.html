@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/style_game.css">
+    <script src="https://kit.fontawesome.com/cdba925fc2.js" crossorigin="anonymous"></script>
+    <title>Играть</title>
+
+</head>
+<body>
+<form form method="POST" action="">
+    <div class="container">
+        <form class="name_code_form">
+            <h2>Правильно:{{ session["right"] }} из {{ session["len_q"] }}</h2>
+            <br>
+            <div class="box1">
+                <div class="input_2">
+                    <text>Вопрос: {{ session["quest"][qu_ind]["text"] }}</text>
+                </div>
+                <div class="input_1">
+                    <input type="text" class="input_answer" name="answer" id="password" placeholder="Ответ"
+                           autocomplete="off">
+                </div>
+            </div>
+            <div class=" button_box">
+                <button name="return"><i class="fa-solid fa-arrow-left"></i></button>
+                <button name="enter">Ответить</button>
+                <button name="next" style=""><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="button_box_1">
+                <button name="end" style="">Закончить</button>
+            </div>
+
+
+            <text name="result">{{ session["result"] }}</text>
+    </div>
+</form>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/style_choose_class.css">
+    <script src="https://kit.fontawesome.com/cdba925fc2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<form form method="POST" action="">
+    {% for class_name in class_list %}
+        <div class="box" id="block" style="">
+            <center>
+                <button style="max-height: 1300px; margin-top: 50px" name="button {{ class_name[0] }}">
+                    Класс: {{ class_name[1] }}, Пользователь: Артём
+                </button>
+            </center>
+        </div>
+    {% endfor %}
+</form>
+
+</body>
+</html>

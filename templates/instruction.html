@@ -2,9 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="/static/css/style_instruction.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/cdba925fc2.js" crossorigin="anonymous"></script>
+    <title>Инструкция</title>
 </head>
-<body>
 
-</body>
+{% extends "base.html" %}
+{% block content %}
+
+    <body>
+    <div style="margin-top: 50px">
+        <text style="margin-top: 120px; margin-left: 100px; margin-right: 20px; border: 20px solid #03989e; padding: 20px; border-radius: 15px; font-size: 100px; font-family:Impact ">
+            Шаг 1
+        </text>
+        <text style="margin-left: 30%; font-size: 80px; font-family:Impact; margin-left: 100px; margin-top: 100px">
+            Авторизуйтесь
+        </text>
+        <h3 style="margin-left: 100px; margin-left: 100px; margin-top: 50px;">Для того, чтобы пользоваться нашим сайтом
+            без ограничений, необходимо пройти регистрацию! Пожалуйста, перейдите в раздел авторизации как это показано
+            на картинке, введите свое имя, почту и придумайте пароль. Если вы уже регистрировались, то войдите в
+            аккаунт. Для этого также заполните данные.</h3>
+        <center><img src="/static/img/instr_pic/i1.png"></center>
+    </div>
+    <br>
+    <div style="margin-top: 50px">
+        <text style="margin-top: 120px; margin-left: 100px; margin-right: 20px; border: 20px solid #03989e; padding: 20px; border-radius: 15px; font-size: 100px; font-family:Impact ">
+            Шаг 2
+        </text>
+        <text style="margin-left: 30%; font-size: 80px; font-family:Impact; margin-left: 100px; margin-top: 100px">
+            Создайте класс
+        </text>
+        <h3 style="margin-left: 100px; margin-left: 100px; margin-top: 50px;">Отлично! Теперь вы можете приступать к
+            созданию своего класса. Для этого нажмине на кнопку "создать класс" на главной странице сайта. Затем
+            выберете предмет и придумайте имя класса. Поздравляю, вы находитесь на странице создания. В окно "термин"
+            введите то, что выхотите выучить, а в окно "ответ" введите правильный ответ.</h3>
+        <center><img src="/static/img/instr_pic/i2.png"></center>
+    </div>
+    <br>
+    <div style="margin-top: 50px">
+        <text style="margin-top: 120px; margin-left: 100px; margin-right: 20px; border: 20px solid #03989e; padding: 20px; border-radius: 15px; font-size: 100px; font-family:Impact ">
+            Шаг 3
+        </text>
+        <text style="margin-left: 30%; font-size: 80px; font-family:Impact; margin-left: 100px; margin-top: 100px">
+            Начните изучение!
+        </text>
+        <h3 style="margin-left: 100px; margin-left: 100px; margin-top: 50px;">Теперь вы можете пользоваться любыми
+            функциями сайта! Учите на 5 и узнавайте новое)</h3>
+    </div>
+    </body>
+
+{% endblock %}
+
 </html>

@@ -15,20 +15,16 @@
     <nav class="navbar">
         <ul class="container">
 
-            <li><a href="#" name="logo"> <img src="/static/img/base_pic/logo.jpg" alt=""
-                                              style="height: 110px; width: auto" class="logo"></a></li>
+            <li><a href="#" name="logo"> <img src="/static/img/base_pic/logo.png" alt="" class="logo"></a></li>
 
             <li>
-                <a href='' class="setting_button"><i class="fa-solid fa-gear"></i></a>
                 <button name="registration" class="button1">Войти</button>
-                <text class="button2">{{ session["username"] }}</text>
-
+                <a href='' class="setting_button"><i class="fa-solid fa-gear"></i></a>
             </li>
 
         </ul>
     </nav>
 </form>
-
 
 {% block content %}{% endblock %}
 <br>

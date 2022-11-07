@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/style_go_class.css">
+    <script src="https://kit.fontawesome.com/cdba925fc2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<form form method="POST" action="">
+    <div class="container">
+        <form class="name_code_form">
+            <div class="information" style="text-align: center; border: ">
+                <h1>Класс: {{ session["cur_class_name"] }} по предмету {{ session["subject"] }}</h1>
+                <h1>Правильно: {{ session["right"] }} из {{ session["len_q"] }}</h1>
+            </div>
+
+            <br>
+            <div class="information">
+                <div class="input_2">
+                    <center>
+                        <text>{{ session["quest"][qu_ind]["text"] }}</text>
+                    </center>
+                </div>
+                <div class="input_1">
+                    <center><input type="text" class="input_answer" name="answer" id="password" placeholder="Ответ"
+                                   autocomplete="off"></center>
+                </div>
+            </div>
+            <center>
+                <div class="button_box">
+                    <button name="return"><i class="fa-solid fa-arrow-left"></i></button>
+                    <button name="enter">Ответить</button>
+                    <button name="next" style=""><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="button_box_1">
+                    <button name="end" style="">Закончить</button>
+                </div>
+
+                <text name="result">{{ session["result"] }}</text>
+            </center>
+    </div>
+</form>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Статистика</title>
+    <link rel="stylesheet" href="/static/css/style_stats.css">
+</head>
+<body>
+<form form method="POST" action="">
+    <h1 style="text-align: center">Привет, {{ session["username"] }}</h1>
+    {% for stat in stats %}
+        <div class="box" id="block" style="">
+            <text class="statistic">Предмет:{{ stat["subject"] }}, Класс: {{ stat["class_name"] }},
+                Правильно: {{ stat["result"] }} из {{ stat["length"] }}</text>
+        </div>
+    {% endfor %}
+</form>
+
+
+</body>
+</html>
